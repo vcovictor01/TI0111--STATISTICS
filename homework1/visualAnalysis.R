@@ -1,4 +1,3 @@
-
 #Creating vector with emission values
 emissions <- c(15.8, 22.7, 26.8, 19.1, 18.5, 14.4, 8.3, 25.9, 26.4, 9.8, 21.9, 10.5, 17.3,
         6.2, 18.0, 22.9, 24.6, 19.4, 12.3, 15.9, 20.1, 17.0, 22.3, 27.5, 23.9, 17.5, 11.0,
@@ -7,15 +6,17 @@ emissions <- c(15.8, 22.7, 26.8, 19.1, 18.5, 14.4, 8.3, 25.9, 26.4, 9.8, 21.9, 1
         19.0, 14.5, 18.1, 31.8, 28.5, 22.7, 15.2, 23.0, 29.6, 11.2, 14.7, 20.5, 26.6, 13.3,
         18.1, 24.8, 26.1, 7.7, 22.5, 19.3, 19.4, 16.7, 16.9, 23.5, 18.4)
 
-#Plotting the histogram
+#Plotting the histogram using the R language
 hist(emissions, 
         main = "Emissions Histogram",
         xlab = "Emissions per class")
 
+#Plotting the boxplot using the R language
 boxplot(emissions,
         main = "Emissions Boxplot",
         ylab = "Emissions")
 
+#Boxplot customize
 text(x=1.1, y = 20.3, 
         labels = paste("Median = 19.15"))
 text(x=1.1, y = 15.4, 
