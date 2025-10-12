@@ -23,3 +23,7 @@ text(x=1.1, y = 15.4,
         labels = paste("Quartile 1"))
 text(x=1.1, y = 23.05, 
         labels = paste("Quartile 3"))
+
+
+
+        

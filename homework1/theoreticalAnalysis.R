@@ -52,3 +52,5 @@ eDeviation
 #Calculating the Coefficient of Variation by the standard formula - 29.196
 eVariation <- (sd(e)/mean(e))*100
 eVariation
+
+
